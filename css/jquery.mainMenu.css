@@ -1,0 +1,79 @@
+
+@media screen and (min-width: 300px) {
+    .menu {
+        background: rgba(0, 0, 0, .8);
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+    .menu li {
+        list-style: none;
+    }
+    .menu-header{
+       display: block;
+        float: left;
+        font-size: 20px;
+        font-weight: 700;
+        margin-right: 20px;
+        position: absolute;
+        left: 20px;
+        top: -25px;
+    }
+    .menu span {
+        background: #fff;
+        width: 22px; height: 2px;
+        display: block;
+        margin-top: 3px;
+    }
+    .menu span:first-child{
+        margin-top: 0;
+    }
+    .main-menu {
+       display: none;
+       padding-top: 16px;
+    }
+    .main-menu li a{
+        list-style: none;
+        width: 100%;
+        display: block;
+        color: white;
+        font-size: 1.1rem;
+        font-weight: 700;
+        text-decoration: none;
+        padding: .4em 1.2em;
+        border-bottom: thin solid rgba(255,255,255,.2);
+    }
+}
+@media screen and (min-width: 820px) {
+    .menu {
+        padding: 0;
+        margin: 0;
+        float: right;
+    }
+    .menu-header {display: none;}
+    .main-menu {
+        overflow: hidden;
+        display: block !important;
+        padding: 0;
+        margin: 0; 
+        width: 100%; 
+    }
+    .main-menu li {
+        display: inline-block;
+        float: left;
+    }
+    .main-menu li a {
+        text-align: center;
+        display: block;
+        font-size: 18px;
+        font-family: 'NanumSquareB';
+        border: none;
+        padding: 0 0 0 80px;
+        line-height: 80px;
+    }
+}
+@media screen and (min-width: 1023px) {
+    .menu {
+            background: transparent;
+    }
+}
