@@ -237,6 +237,16 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+.blog_card.career3 {
+	background-image: url('../images/career_img2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.blog_card.career4 {
+	background-image: url('../images/career_img1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 .blog_card .color_overlay {
 	/* Rectangle 11: */
 	background: rgba(48, 145, 207, 0);
@@ -280,7 +290,7 @@
 .card_info {
 	width: 100%;
 	position: absolute;
-	top: 172px;
+	top: 220px;
 	left: 0;
 	padding: 20px 50px 10px;
 	color: #fff;
